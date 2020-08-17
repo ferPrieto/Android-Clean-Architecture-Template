@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [:presentation] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/presentation/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:core] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:data-remote] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/data-remote/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:data] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/data/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:core-android-test] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/core-android-test/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:navigation] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/navigation/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:domain] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/domain/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/91d76ba9bc6cabc697f353ca2f9cc5a5/jetified-lifecycle-livedata-ktx-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/45ec2558f1522013e347885734fdc412/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d1fd8884a962f8dbd8e271b77f329dbe/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/dfee6d74b2f72969dea7bef28a079379/jetified-activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/09894f5e3b45f2e3fbc1abe9d5d0ffe8/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/57d940d5ea555df6449ba630ba5af647/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e02733dfeb76ee2b6acf603051f66b41/lifecycle-extensions-2.2.0-rc01/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d687566c89d9f0485800a07a4d174aab/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34b54c16012a02e9789a892e56857b11/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/6452f34ee42de1f5c487b0edaa500202/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b1eb5295bbbc4c95202a49e43257bd83/jetified-lifecycle-livedata-core-ktx-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/5f200629f2ad7598e646fcef37805fa8/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/26fca5bf8a7ce4c280f374a3f23a4de5/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-android-support:2.24] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/379acf5450e921410f5087b6f8f51456/jetified-dagger-android-support-2.24/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-android:2.24] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4b68cd85151e0ef70cb64bbbf30fd2a1/jetified-dagger-android-2.24/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f3fb8f10f2a7bd9214b516b7caab2013/espresso-contrib-3.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/261535c3204e3bd600204cdb7d28bf43/espresso-core-3.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b720c9c58b969123302f2427662400cf/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/1552dbad6a1b737c1eef50988e3f0b64/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/23b69579fe31367b98896f55707e4080/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e849130c80ec17b51559dafa38622446/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/9e5dde91a99f539ad707acf9bc15030a/fragment-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fc341145acd9be4c502b68ab7abd1559/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/1c28843b4f685bccb55412e2c90acd2d/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e2f635b209b20339433855820d09ebac/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/536b49a71dc7faf9a0bd630dc6e64690/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fdc1319612b02eb7ae31a53b337bffa0/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/19e074c9f4b681386c52cb3ecf23cdde/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b7d32aa0d235ab919587adab7cc767e1/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bd8e8180ad10cb4e955ab8938d301526/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3a6363442fbd464035f83263ce4c7687/jetified-activity-1.1.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/489f00386c4d3bdadd08da00c6e9547a/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/99fb9912aabdff07f69d3f3463880edb/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4d314edb521ffb6cdd09ab2b7577029a/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7172ab0c95b673b1885277593f86c104/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b1daee8d3c2942c2720701b38d02fefd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8cbf996c0fca106c2bc16a1e8f6fe24e/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/9195a31e0861e3acd2a8858efb70141b/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4d0bd1e4e8bcc3559e3774d466dab7f3/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/378f64d6c26e18767b310dd552c0f057/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df993be4009986160772d5448a4b2b96/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/a59c33a659b728ba2cb8c881910f1dba/jetified-lifecycle-service-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d900a46fd50dec4483a27469eb1ae5e6/lifecycle-runtime-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bededef5ccbc74ebc0f1a9ca0ad3c539/lifecycle-livedata-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/eb80ee2bc49ebdf3351d341d7492ede3/jetified-lifecycle-viewmodel-savedstate-1.0.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8a86c4d49ea557a903d493ced3a8c2f5/lifecycle-livedata-core-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8a925c4fe6561382dcc2fe48b4b4b46f/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/27fee151e6c8edc7c1b3bdaff57a0be4/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3cc6063a62287495ed848d9675ae51c3/lifecycle-viewmodel-2.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:runner:1.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f62d81b3666127ff61b9ee1a3843390e/runner-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/21d9ec20247d932b71baec2b18deb335/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bcab439406e103831aa4bddf66635e63/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/601f83b63767552c8e01bad743315305/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d2201721d771aac7ed41aae2734f585e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/518232fe023159a087de0caa5f296b04/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/58e8f362a9e2eed69b5d8ab61aba5f1e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test:monitor:1.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/59a67bc094181fb88b00b086f1ae8899/monitor-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3dee03de0d8bb9841cf74d015225916d/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/634d6602a0aadd6576a75db0617255cc/espresso-idling-resource-3.2.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:4:5-39
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:9:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e02733dfeb76ee2b6acf603051f66b41/lifecycle-extensions-2.2.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e02733dfeb76ee2b6acf603051f66b41/lifecycle-extensions-2.2.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d687566c89d9f0485800a07a4d174aab/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d687566c89d9f0485800a07a4d174aab/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f3fb8f10f2a7bd9214b516b7caab2013/espresso-contrib-3.2.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f3fb8f10f2a7bd9214b516b7caab2013/espresso-contrib-3.2.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/23b69579fe31367b98896f55707e4080/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/23b69579fe31367b98896f55707e4080/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df993be4009986160772d5448a4b2b96/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df993be4009986160772d5448a4b2b96/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/21d9ec20247d932b71baec2b18deb335/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/21d9ec20247d932b71baec2b18deb335/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df993be4009986160772d5448a4b2b96/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:12:9-41
+	tools:ignore
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:18:9-60
+	android:roundIcon
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:16:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:13:9-60
+activity#prieto.fernando.template.ui.MainActivity
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:19:9-27:20
+	android:screenOrientation
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:20:13-49
+	tools:ignore
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:21:13-53
+	android:name
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:19:19-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:25:27-74
+uses-sdk
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+MERGED from [:presentation] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/presentation/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:presentation] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/presentation/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/core/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:data-remote] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/data-remote/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:data-remote] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/data-remote/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:data] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/data/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:data] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/data/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core-android-test] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/core-android-test/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:core-android-test] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/core-android-test/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:navigation] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/navigation/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:navigation] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/navigation/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:domain] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/domain/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:domain] /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/domain/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/91d76ba9bc6cabc697f353ca2f9cc5a5/jetified-lifecycle-livedata-ktx-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/91d76ba9bc6cabc697f353ca2f9cc5a5/jetified-lifecycle-livedata-ktx-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/45ec2558f1522013e347885734fdc412/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/45ec2558f1522013e347885734fdc412/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d1fd8884a962f8dbd8e271b77f329dbe/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d1fd8884a962f8dbd8e271b77f329dbe/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/dfee6d74b2f72969dea7bef28a079379/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/dfee6d74b2f72969dea7bef28a079379/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/09894f5e3b45f2e3fbc1abe9d5d0ffe8/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/09894f5e3b45f2e3fbc1abe9d5d0ffe8/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/57d940d5ea555df6449ba630ba5af647/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/57d940d5ea555df6449ba630ba5af647/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e02733dfeb76ee2b6acf603051f66b41/lifecycle-extensions-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e02733dfeb76ee2b6acf603051f66b41/lifecycle-extensions-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d687566c89d9f0485800a07a4d174aab/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d687566c89d9f0485800a07a4d174aab/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34b54c16012a02e9789a892e56857b11/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34b54c16012a02e9789a892e56857b11/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/6452f34ee42de1f5c487b0edaa500202/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/6452f34ee42de1f5c487b0edaa500202/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b1eb5295bbbc4c95202a49e43257bd83/jetified-lifecycle-livedata-core-ktx-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b1eb5295bbbc4c95202a49e43257bd83/jetified-lifecycle-livedata-core-ktx-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/5f200629f2ad7598e646fcef37805fa8/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/5f200629f2ad7598e646fcef37805fa8/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/26fca5bf8a7ce4c280f374a3f23a4de5/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/26fca5bf8a7ce4c280f374a3f23a4de5/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-android-support:2.24] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/379acf5450e921410f5087b6f8f51456/jetified-dagger-android-support-2.24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.24] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/379acf5450e921410f5087b6f8f51456/jetified-dagger-android-support-2.24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.24] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4b68cd85151e0ef70cb64bbbf30fd2a1/jetified-dagger-android-2.24/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.24] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4b68cd85151e0ef70cb64bbbf30fd2a1/jetified-dagger-android-2.24/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f3fb8f10f2a7bd9214b516b7caab2013/espresso-contrib-3.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-contrib:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f3fb8f10f2a7bd9214b516b7caab2013/espresso-contrib-3.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/261535c3204e3bd600204cdb7d28bf43/espresso-core-3.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-core:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/261535c3204e3bd600204cdb7d28bf43/espresso-core-3.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b720c9c58b969123302f2427662400cf/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b720c9c58b969123302f2427662400cf/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/1552dbad6a1b737c1eef50988e3f0b64/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/1552dbad6a1b737c1eef50988e3f0b64/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/23b69579fe31367b98896f55707e4080/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/23b69579fe31367b98896f55707e4080/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e849130c80ec17b51559dafa38622446/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e849130c80ec17b51559dafa38622446/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/9e5dde91a99f539ad707acf9bc15030a/fragment-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/9e5dde91a99f539ad707acf9bc15030a/fragment-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fc341145acd9be4c502b68ab7abd1559/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fc341145acd9be4c502b68ab7abd1559/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/1c28843b4f685bccb55412e2c90acd2d/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/1c28843b4f685bccb55412e2c90acd2d/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e2f635b209b20339433855820d09ebac/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e2f635b209b20339433855820d09ebac/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/536b49a71dc7faf9a0bd630dc6e64690/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/536b49a71dc7faf9a0bd630dc6e64690/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fdc1319612b02eb7ae31a53b337bffa0/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fdc1319612b02eb7ae31a53b337bffa0/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/19e074c9f4b681386c52cb3ecf23cdde/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/19e074c9f4b681386c52cb3ecf23cdde/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b7d32aa0d235ab919587adab7cc767e1/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b7d32aa0d235ab919587adab7cc767e1/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bd8e8180ad10cb4e955ab8938d301526/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bd8e8180ad10cb4e955ab8938d301526/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3a6363442fbd464035f83263ce4c7687/jetified-activity-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3a6363442fbd464035f83263ce4c7687/jetified-activity-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/489f00386c4d3bdadd08da00c6e9547a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/489f00386c4d3bdadd08da00c6e9547a/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/99fb9912aabdff07f69d3f3463880edb/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/99fb9912aabdff07f69d3f3463880edb/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4d314edb521ffb6cdd09ab2b7577029a/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4d314edb521ffb6cdd09ab2b7577029a/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7172ab0c95b673b1885277593f86c104/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7172ab0c95b673b1885277593f86c104/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b1daee8d3c2942c2720701b38d02fefd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/b1daee8d3c2942c2720701b38d02fefd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8cbf996c0fca106c2bc16a1e8f6fe24e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8cbf996c0fca106c2bc16a1e8f6fe24e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/9195a31e0861e3acd2a8858efb70141b/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/9195a31e0861e3acd2a8858efb70141b/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4d0bd1e4e8bcc3559e3774d466dab7f3/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/4d0bd1e4e8bcc3559e3774d466dab7f3/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/378f64d6c26e18767b310dd552c0f057/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/378f64d6c26e18767b310dd552c0f057/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df993be4009986160772d5448a4b2b96/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df993be4009986160772d5448a4b2b96/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/a59c33a659b728ba2cb8c881910f1dba/jetified-lifecycle-service-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/a59c33a659b728ba2cb8c881910f1dba/jetified-lifecycle-service-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d900a46fd50dec4483a27469eb1ae5e6/lifecycle-runtime-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d900a46fd50dec4483a27469eb1ae5e6/lifecycle-runtime-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bededef5ccbc74ebc0f1a9ca0ad3c539/lifecycle-livedata-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bededef5ccbc74ebc0f1a9ca0ad3c539/lifecycle-livedata-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/eb80ee2bc49ebdf3351d341d7492ede3/jetified-lifecycle-viewmodel-savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/eb80ee2bc49ebdf3351d341d7492ede3/jetified-lifecycle-viewmodel-savedstate-1.0.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8a86c4d49ea557a903d493ced3a8c2f5/lifecycle-livedata-core-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8a86c4d49ea557a903d493ced3a8c2f5/lifecycle-livedata-core-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8a925c4fe6561382dcc2fe48b4b4b46f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8a925c4fe6561382dcc2fe48b4b4b46f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/27fee151e6c8edc7c1b3bdaff57a0be4/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/27fee151e6c8edc7c1b3bdaff57a0be4/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3cc6063a62287495ed848d9675ae51c3/lifecycle-viewmodel-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3cc6063a62287495ed848d9675ae51c3/lifecycle-viewmodel-2.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f62d81b3666127ff61b9ee1a3843390e/runner-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:runner:1.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/f62d81b3666127ff61b9ee1a3843390e/runner-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/21d9ec20247d932b71baec2b18deb335/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/21d9ec20247d932b71baec2b18deb335/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bcab439406e103831aa4bddf66635e63/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/bcab439406e103831aa4bddf66635e63/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/601f83b63767552c8e01bad743315305/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/601f83b63767552c8e01bad743315305/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d2201721d771aac7ed41aae2734f585e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/d2201721d771aac7ed41aae2734f585e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/518232fe023159a087de0caa5f296b04/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/518232fe023159a087de0caa5f296b04/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/58e8f362a9e2eed69b5d8ab61aba5f1e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/58e8f362a9e2eed69b5d8ab61aba5f1e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:monitor:1.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/59a67bc094181fb88b00b086f1ae8899/monitor-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/59a67bc094181fb88b00b086f1ae8899/monitor-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3dee03de0d8bb9841cf74d015225916d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/3dee03de0d8bb9841cf74d015225916d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/634d6602a0aadd6576a75db0617255cc/espresso-idling-resource-3.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.2.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/634d6602a0aadd6576a75db0617255cc/espresso-idling-resource-3.2.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fd214f7da45b376f77da7a115649ca2c/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:26:13-79

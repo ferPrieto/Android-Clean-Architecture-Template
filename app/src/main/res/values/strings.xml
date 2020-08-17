@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Template</string>
+    <string name="header_title">This is a header title</string>
+    <string name="header_error_description">This is an error in the header view.</string>
+</resources>
