@@ -1,7 +1,7 @@
 [![Platform](https://img.shields.io/badge/platform-android-lightgrey)](https://developer.android.com/reference)
 
-# Template
-
+# Complete Clean Architecture Template (MVVM + Dagger2 + Coroutines) -> Modularised
+This is one of the different 'Checkout & Code' templates developed in order to facilitate the foundation work applied in the beginning of any project.
 
 #  License
 
