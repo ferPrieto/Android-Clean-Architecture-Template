@@ -1,4 +1,4 @@
-#Tue Aug 18 14:36:53 BST 2020
+#Tue Aug 18 17:08:06 BST 2020
 base.2=/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
 base.1=/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
 base.0=/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex

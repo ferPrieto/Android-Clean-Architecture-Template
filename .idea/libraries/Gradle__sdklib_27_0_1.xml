@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: sdklib-27.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/27.0.1/c6ddf0399d70930644cca38fa17df09839bfaa76/sdklib-27.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/27.0.1/5900752828033e5082a6d5fabae9d550970eb0b6/sdklib-27.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

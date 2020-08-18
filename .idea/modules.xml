@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Template.iml" filepath="$PROJECT_DIR$/.idea/modules/Template.iml" group="Template" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Template_buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Template_buildSrc.iml" group="Template/Template_buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Template/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="Template/core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/navigation.iml" group="Template/navigation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/presentation.iml" group="Template/presentation" />
+    </modules>
+  </component>
+</project>
