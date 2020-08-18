@@ -2,9 +2,6 @@ package prieto.fernando.presentation;
 
 import dagger.internal.Factory;
 import javax.annotation.Generated;
-import javax.inject.Provider;
-import prieto.fernando.domain.usecase.GetSampleUseCase;
-import prieto.fernando.presentation.mapper.SampleDomainToUiModelMapper;
 
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",
@@ -15,29 +12,20 @@ import prieto.fernando.presentation.mapper.SampleDomainToUiModelMapper;
     "rawtypes"
 })
 public final class FirstViewModelImpl_Factory implements Factory<FirstViewModelImpl> {
-  private final Provider<GetSampleUseCase> getSampleUseCaseProvider;
-
-  private final Provider<SampleDomainToUiModelMapper> sampleDomainToUiModelMapperProvider;
-
-  public FirstViewModelImpl_Factory(Provider<GetSampleUseCase> getSampleUseCaseProvider,
-      Provider<SampleDomainToUiModelMapper> sampleDomainToUiModelMapperProvider) {
-    this.getSampleUseCaseProvider = getSampleUseCaseProvider;
-    this.sampleDomainToUiModelMapperProvider = sampleDomainToUiModelMapperProvider;
-  }
-
   @Override
   public FirstViewModelImpl get() {
-    return newInstance(getSampleUseCaseProvider.get(), sampleDomainToUiModelMapperProvider.get());
+    return newInstance();
   }
 
-  public static FirstViewModelImpl_Factory create(
-      Provider<GetSampleUseCase> getSampleUseCaseProvider,
-      Provider<SampleDomainToUiModelMapper> sampleDomainToUiModelMapperProvider) {
-    return new FirstViewModelImpl_Factory(getSampleUseCaseProvider, sampleDomainToUiModelMapperProvider);
+  public static FirstViewModelImpl_Factory create() {
+    return InstanceHolder.INSTANCE;
   }
 
-  public static FirstViewModelImpl newInstance(GetSampleUseCase getSampleUseCase,
-      SampleDomainToUiModelMapper sampleDomainToUiModelMapper) {
-    return new FirstViewModelImpl(getSampleUseCase, sampleDomainToUiModelMapper);
+  public static FirstViewModelImpl newInstance() {
+    return new FirstViewModelImpl();
+  }
+
+  private static final class InstanceHolder {
+    private static final FirstViewModelImpl_Factory INSTANCE = new FirstViewModelImpl_Factory();
   }
 }

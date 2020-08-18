@@ -1,9 +1,10 @@
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen)](https://developer.android.com/reference)
 
-# Complete Clean Architecture Template
+# Reduced Architecture Template
 
-## (MVVM + Hilt + Coroutines) -> Modularised
+## (MVVM + Hilt ) -> Modularised
 This is one of the different 'Checkout & Code' templates developed in order to facilitate the foundation work applied in the beginning of any project.
+(Domain, Data, Data-API and Core-Android-Test modules have been removed in this reduced version for simplicity)
 
 #  License
 

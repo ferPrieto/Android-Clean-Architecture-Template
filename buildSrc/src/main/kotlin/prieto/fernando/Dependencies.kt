@@ -1,11 +1,7 @@
 object ProjectModules {
     const val core = ":core"
     const val navigation = ":navigation"
-    const val data = ":data"
-    const val dataRemote = ":data-remote"
-    const val domain = ":domain"
     const val presentation = ":presentation"
-    const val coreAndroidTest = ":core-android-test"
 }
 
 object AndroidSettings {
@@ -34,7 +30,6 @@ object Versions {
     const val gradle = "3.5.1"
     const val kotlin = "1.3.60"
     const val coreTesting = "1.1.1"
-    const val kotlinxCoroutines = "1.3.2"
     const val hilt = "2.28-alpha"
     const val hiltViewModel = "1.0.0-alpha01"
 }
@@ -76,18 +71,9 @@ object Dependencies {
         }
     }
 
-    const val kotlinxCoroutines =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.kotlinxCoroutines}"
-
     object Dagger {
-        const val dagger =
-            "com.google.dagger:dagger:${Versions.dagger}"
-        const val daggerAndroid =
-            "com.google.dagger:dagger-android:${Versions.dagger}"
         const val daggerAndroidSupport =
             "com.google.dagger:dagger-android-support:${Versions.dagger}"
-        const val daggerCompiler =
-            "com.google.dagger:dagger-compiler:${Versions.dagger}"
         const val daggerAndroidProcessor =
             "com.google.dagger:dagger-android-processor:${Versions.dagger}"
     }
@@ -98,7 +84,6 @@ object Dependencies {
         const val hiltCompiler =
             "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
         const val hiltViewModel = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hiltViewModel}"
-
     }
 }
 
@@ -117,15 +102,11 @@ object TestDependencies {
             "androidx.test.espresso:espresso-core:${Versions.espresso}"
         const val espressoContrib =
             "androidx.test.espresso:espresso-contrib:${Versions.espresso}"
-        const val fragmentTesting = "androidx.fragment:fragment-testing:${Versions.androidxTest}"
         const val junit =
             "androidx.test.ext:junit:${Versions.androidxJunit}"
         const val coreTesting =
             "android.arch.core:core-testing:${Versions.coreTesting}"
     }
-
-    const val kotlinxCoroutines =
-        "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.kotlinxCoroutines}"
 
     object JUnit {
         const val junit =

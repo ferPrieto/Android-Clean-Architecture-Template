@@ -12,7 +12,6 @@ import prieto.fernando.presentation.FirstViewModel
 import prieto.fernando.template.R
 import javax.inject.Inject
 import kotlinx.android.synthetic.main.fragment_first.header_title as headerTitle
-import kotlinx.android.synthetic.main.fragment_first.progress_bar_header as progressBarHeader
 
 @AndroidEntryPoint
 class FirstFragment @Inject constructor(
@@ -26,9 +25,6 @@ class FirstFragment @Inject constructor(
     }
 
     private fun setViewModelObservers() {
-        viewModel.loadingHeader.observe(this, Observer { showLoading ->
-            progressBarHeader.isVisible = showLoading
-        })
         viewModel.showSample.observe(this, Observer { sample ->
             headerTitle.text = sample.title
         })

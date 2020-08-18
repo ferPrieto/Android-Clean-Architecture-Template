@@ -30,12 +30,8 @@ android {
 
 dependencies {
     implementation(project(ProjectModules.core))
-    implementation(project(ProjectModules.coreAndroidTest))
     implementation(project(ProjectModules.navigation))
     implementation(project(ProjectModules.presentation))
-    implementation(project(ProjectModules.domain))
-    implementation(project(ProjectModules.data))
-    implementation(project(ProjectModules.dataRemote))
 
     implementation(Dependencies.AndroidX.fragmentKtx)
     implementation(Dependencies.AndroidX.coreKtx)

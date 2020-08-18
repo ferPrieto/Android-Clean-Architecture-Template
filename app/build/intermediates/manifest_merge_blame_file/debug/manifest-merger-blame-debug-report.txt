@@ -27,7 +27,7 @@
 19        android:allowBackup="true"
 19-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:10:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7b33337388aa0edc00f4b69d838f66d8/core-1.1.0/AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.1.0] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df9d496e9de341252bb1a3ccb5ec7635/core-1.1.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:extractNativeLibs="false"
 23        android:icon="@mipmap/ic_launcher"
@@ -62,15 +62,15 @@
 38        </activity>
 39
 40        <provider
-40-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7f58cefd2980605cc37576716c543a0a/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:25:9-29:43
+40-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/33214a029f17448f6d0c47f0afcfd1fb/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:25:9-29:43
 41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7f58cefd2980605cc37576716c543a0a/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:26:13-79
+41-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/33214a029f17448f6d0c47f0afcfd1fb/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:26:13-79
 42            android:authorities="prieto.fernando.android.plugin.lifecycle-process"
-42-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7f58cefd2980605cc37576716c543a0a/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:27:13-69
+42-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/33214a029f17448f6d0c47f0afcfd1fb/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:27:13-69
 43            android:exported="false"
-43-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7f58cefd2980605cc37576716c543a0a/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:28:13-37
+43-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/33214a029f17448f6d0c47f0afcfd1fb/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:28:13-37
 44            android:multiprocess="true" />
-44-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/7f58cefd2980605cc37576716c543a0a/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:29:13-40
+44-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/33214a029f17448f6d0c47f0afcfd1fb/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:29:13-40
 45    </application>
 46
 47</manifest>

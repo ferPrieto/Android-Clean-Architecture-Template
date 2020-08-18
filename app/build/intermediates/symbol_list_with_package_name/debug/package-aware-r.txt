@@ -1190,7 +1190,6 @@ id ghost_view
 id gone
 id group_divider
 id groups
-id header_error_description
 id header_title
 id home
 id homeAsUp
@@ -1235,7 +1234,6 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
-id progress_bar_header
 id progress_circular
 id progress_horizontal
 id radio
@@ -1460,7 +1458,6 @@ string character_counter_content_description
 string character_counter_pattern
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string header_error_description
 string header_title
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description

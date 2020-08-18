@@ -4,9 +4,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(ProjectModules.domain))
     implementation(project(ProjectModules.core))
-    testImplementation(project(ProjectModules.coreAndroidTest))
 
     implementation(Dependencies.AndroidX.Navigation.fragmentKtx)
     implementation(Dependencies.AndroidX.lifecycleLivedataKtx)

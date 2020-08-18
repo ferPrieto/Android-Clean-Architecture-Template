@@ -4,7 +4,7 @@
             "outputFile": "/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/0c25463c40e4fe0e9542ef4bbec8cb91/appcompat-1.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/64530eaebd0f72098bddab6a1d4cc814/appcompat-1.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
