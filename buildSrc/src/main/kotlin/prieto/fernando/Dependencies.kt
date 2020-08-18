@@ -35,6 +35,8 @@ object Versions {
     const val kotlin = "1.3.60"
     const val coreTesting = "1.1.1"
     const val kotlinxCoroutines = "1.3.2"
+    const val hilt = "2.28-alpha"
+    const val hiltViewModel = "1.0.0-alpha01"
 }
 
 object BuildDependencies {
@@ -42,6 +44,8 @@ object BuildDependencies {
         "com.android.tools.build:gradle:${Versions.gradle}"
     const val kotlinGradlePlugin =
         "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
+    const val hiltGradlePlugin =
+        "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
 }
 
 object Dependencies {
@@ -86,6 +90,15 @@ object Dependencies {
             "com.google.dagger:dagger-compiler:${Versions.dagger}"
         const val daggerAndroidProcessor =
             "com.google.dagger:dagger-android-processor:${Versions.dagger}"
+    }
+
+    object Hilt {
+        const val hilt =
+            "com.google.dagger:hilt-android:${Versions.hilt}"
+        const val hiltCompiler =
+            "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
+        const val hiltViewModel = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hiltViewModel}"
+
     }
 }
 

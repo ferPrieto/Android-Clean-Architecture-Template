@@ -4,7 +4,17 @@
             "outputFile": "/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/23b69579fe31367b98896f55707e4080/material-1.0.0/res/values-land/values-land.xml",
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/0c25463c40e4fe0e9542ef4bbec8cb91/appcompat-1.0.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/fa0991628e6765e5cf1411256a349971/material-1.0.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
-                    }
-                },
-                {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/e849130c80ec17b51559dafa38622446/appcompat-1.0.0/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 }
             ]

@@ -14,6 +14,13 @@ int anim design_bottom_sheet_slide_in 0x0
 int anim design_bottom_sheet_slide_out 0x0
 int anim design_snackbar_in 0x0
 int anim design_snackbar_out 0x0
+int anim fragment_close_enter 0x0
+int anim fragment_close_exit 0x0
+int anim fragment_fade_enter 0x0
+int anim fragment_fade_exit 0x0
+int anim fragment_fast_out_extra_slow_in 0x0
+int anim fragment_open_enter 0x0
+int anim fragment_open_exit 0x0
 int anim nav_default_enter_anim 0x0
 int anim nav_default_exit_anim 0x0
 int anim nav_default_pop_enter_anim 0x0
@@ -1067,6 +1074,7 @@ int id filled 0x0
 int id firstFragment 0x0
 int id fixed 0x0
 int id forever 0x0
+int id fragment_container_view_tag 0x0
 int id ghost_view 0x0
 int id group_divider 0x0
 int id home 0x0
@@ -1175,6 +1183,7 @@ int id unlabeled 0x0
 int id up 0x0
 int id view_offset_helper 0x0
 int id visible 0x0
+int id visible_removing_fragment_view_tag 0x0
 int id wrap_content 0x0
 int integer abc_config_activityDefaultDur 0x0
 int integer abc_config_activityShortDur 0x0
@@ -2220,6 +2229,13 @@ int[] styleable ForegroundLinearLayout { 0x1010109, 0x1010200, 0x0 }
 int styleable ForegroundLinearLayout_android_foreground 0
 int styleable ForegroundLinearLayout_android_foregroundGravity 1
 int styleable ForegroundLinearLayout_foregroundInsidePadding 2
+int[] styleable Fragment { 0x10100d0, 0x1010003, 0x10100d1 }
+int styleable Fragment_android_id 0
+int styleable Fragment_android_name 1
+int styleable Fragment_android_tag 2
+int[] styleable FragmentContainerView { 0x1010003, 0x10100d1 }
+int styleable FragmentContainerView_android_name 0
+int styleable FragmentContainerView_android_tag 1
 int[] styleable FragmentNavigator { 0x1010003 }
 int styleable FragmentNavigator_android_name 0
 int[] styleable GradientColor { 0x101020b, 0x10101a2, 0x10101a3, 0x101019e, 0x1010512, 0x1010513, 0x10101a4, 0x101019d, 0x1010510, 0x1010511, 0x1010201, 0x10101a1 }

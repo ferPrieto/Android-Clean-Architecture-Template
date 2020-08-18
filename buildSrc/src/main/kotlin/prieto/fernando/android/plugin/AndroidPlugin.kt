@@ -38,7 +38,8 @@ open class AndroidPlugin : Plugin<Project> {
 
     private fun androidPlugins() = listOf(
         "kotlin-android",
-        "kotlin-android-extensions"
+        "kotlin-android-extensions",
+        "dagger.hilt.android.plugin"
     )
 
     private fun Project.configurePlugins(buildType: BuildType) = listOf(
@@ -84,7 +85,8 @@ open class AndroidPlugin : Plugin<Project> {
 
         implementation(Dependencies.kotlinxCoroutines)
 
-        kapt(Dependencies.Dagger.daggerCompiler)
+        implementation(Dependencies.Hilt.hilt)
+        kapt(Dependencies.Hilt.hiltCompiler)
         kapt(Dependencies.Dagger.daggerAndroidProcessor)
 
         androidTestImplementation(TestDependencies.AndroidX.core)

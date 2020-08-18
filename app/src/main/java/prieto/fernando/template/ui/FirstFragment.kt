@@ -7,12 +7,14 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import dagger.hilt.android.AndroidEntryPoint
 import prieto.fernando.presentation.FirstViewModel
 import prieto.fernando.template.R
 import javax.inject.Inject
 import kotlinx.android.synthetic.main.fragment_first.header_title as headerTitle
 import kotlinx.android.synthetic.main.fragment_first.progress_bar_header as progressBarHeader
 
+@AndroidEntryPoint
 class FirstFragment @Inject constructor(
     viewModelFactory: ViewModelProvider.Factory
 ) : Fragment(R.layout.fragment_first) {
