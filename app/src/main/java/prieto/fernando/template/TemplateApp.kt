@@ -1,7 +1,11 @@
 package prieto.fernando.template
 
-import android.app.Application
-import dagger.hilt.android.HiltAndroidApp
+import dagger.android.AndroidInjector
+import dagger.android.DaggerApplication
+import prieto.fernando.template.di.DaggerAppComponent
 
-@HiltAndroidApp
-open class TemplateApp : Application()
+open class TemplateApp : DaggerApplication() {
+    override fun applicationInjector(): AndroidInjector<out DaggerApplication> =
+        DaggerAppComponent.builder()
+            .build()
+}

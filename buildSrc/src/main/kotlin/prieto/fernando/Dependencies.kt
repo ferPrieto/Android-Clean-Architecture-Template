@@ -19,7 +19,7 @@ object Versions {
     const val legacySupportV4 = "1.0.0"
     const val lifecycleLivedataKtx = "2.2.0-rc01"
     const val livedataTesting = "1.1.1"
-    const val dagger = "2.24"
+    const val dagger = "2.28.3"
     const val androidxTest = "1.2.0"
     const val espresso = "3.2.0"
     const val androidxJunit = "1.1.1"
@@ -31,7 +31,6 @@ object Versions {
     const val kotlin = "1.3.60"
     const val coreTesting = "1.1.1"
     const val hilt = "2.28-alpha"
-    const val hiltViewModel = "1.0.0-alpha01"
 }
 
 object BuildDependencies {
@@ -72,18 +71,16 @@ object Dependencies {
     }
 
     object Dagger {
+        const val dagger =
+            "com.google.dagger:dagger:${Versions.dagger}"
+        const val daggerAndroid =
+            "com.google.dagger:dagger-android:${Versions.dagger}"
         const val daggerAndroidSupport =
             "com.google.dagger:dagger-android-support:${Versions.dagger}"
+        const val daggerCompiler =
+            "com.google.dagger:dagger-compiler:${Versions.dagger}"
         const val daggerAndroidProcessor =
             "com.google.dagger:dagger-android-processor:${Versions.dagger}"
-    }
-
-    object Hilt {
-        const val hilt =
-            "com.google.dagger:hilt-android:${Versions.hilt}"
-        const val hiltCompiler =
-            "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
-        const val hiltViewModel = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.hiltViewModel}"
     }
 }
 

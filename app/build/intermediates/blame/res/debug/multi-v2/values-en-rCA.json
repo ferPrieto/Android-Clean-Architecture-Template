@@ -4,7 +4,7 @@
             "outputFile": "/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/64530eaebd0f72098bddab6a1d4cc814/appcompat-1.0.0/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/dc0a314d4c7d4d2b193fe2afed07b5a8/appcompat-1.1.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df9d496e9de341252bb1a3ccb5ec7635/core-1.1.0/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8fb7fb4f4287e4901ba369e78846abde/core-1.1.0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,7 +4,7 @@
             "outputFile": "/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/df9d496e9de341252bb1a3ccb5ec7635/core-1.1.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/8fb7fb4f4287e4901ba369e78846abde/core-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/64530eaebd0f72098bddab6a1d4cc814/appcompat-1.0.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/ferchurch/.gradle/caches/transforms-2/files-2.1/dc0a314d4c7d4d2b193fe2afed07b5a8/appcompat-1.1.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

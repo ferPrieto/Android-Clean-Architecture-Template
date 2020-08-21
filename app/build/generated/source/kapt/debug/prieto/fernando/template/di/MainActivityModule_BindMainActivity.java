@@ -6,11 +6,9 @@ import dagger.Subcomponent;
 import dagger.android.AndroidInjector;
 import dagger.multibindings.ClassKey;
 import dagger.multibindings.IntoMap;
-import javax.annotation.Generated;
 import prieto.fernando.template.ui.MainActivity;
 
 @Module(subcomponents = MainActivityModule_BindMainActivity.MainActivitySubcomponent.class)
-@Generated("dagger.android.processor.AndroidProcessor")
 public abstract class MainActivityModule_BindMainActivity {
   private MainActivityModule_BindMainActivity() {}
 
