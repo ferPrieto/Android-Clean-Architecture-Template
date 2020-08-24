@@ -10,11 +10,11 @@ This is one of the different 'Checkout & Code' templates developed in order to f
 
 ## Getting Started :vertical_traffic_light:
 
-1. Checkout the repo
-2. Sync Project with Gradle Files
-3. Add any dependency that you need in **buildSrc -> Dependencies.kt**
-4. Modify **app-> FirstFragment** as you want and add any others in the same module
-5. Modify **presentation -> FirstViewModel** as you want and add any others in the same module
+1. Checkout the repo.
+2. Sync Project with Gradle Files.
+3. Add any dependency that you need in **buildSrc -> Dependencies.kt**.
+4. Modify **app-> FirstFragment** as you want and add any others in the same module.
+5. Modify **presentation -> FirstViewModel** as you want and add any others in the same module.
 6. Enjoy! :surfer:
 
 
@@ -22,8 +22,8 @@ This is one of the different 'Checkout & Code' templates developed in order to f
 
 1. Second click on Clean-Architecture-Template structure and select New -> module.
 2. When the module is added to the project, make sure you include it in **settings.gradle.kts** and **DELETE settings.gradle** file generated, because it won't be needed.
-3. Compile the project
-4. Include the module in **app -> build.gradle.kts**
+3. Compile the project.
+4. Include the module in **app -> build.gradle.kts**.
 
 
 ## Modules :department_store:
@@ -31,8 +31,8 @@ This is one of the different 'Checkout & Code' templates developed in order to f
 * **app** - The application module with access to **all the application**
 * **buildSrc** - Kotlin module that contains the **Dependencies** class and the **AndroidPlugin** that will simplify the build gradle files in every single module defined.
 * **core** - Android module that contains the Injecting VM Factory and the needed DI basic annotations **(it can't access any other module)**
-* **presentation** - Android module that contains the UI model and VMs used in the app
 * **navigation** - Android jetpack navigation abstraction (it contains the navigation config file) **cannot access any other module**
+* **presentation** - Android module that contains the UI model and VMs used in the app
 
 
 #  License :oncoming_police_car:
