@@ -10,20 +10,21 @@ This is one of the different 'Checkout & Code' templates developed in order to f
 
 ## Getting Started :vertical_traffic_light:
 
-:one:$~~$Checkout the repo<br/>
-:two:$~~$Sync Project with Gradle Files<br/>
-:three:$~~$Add any dependency that you need in **buildSrc -> Dependencies.kt**<br/>
-:four:$~~$Modify **app-> FirstFragment** as you want and add any others in the same module<br/>
-:five:$~~$Modify **presentation -> FirstViewModel** as you want and add any others in the same module<br/>
-:six:$~~$Enjoy!<br/>
+1. Checkout the repo
+2. Sync Project with Gradle Files
+3. Add any dependency that you need in **buildSrc -> Dependencies.kt**
+4. Modify **app-> FirstFragment** as you want and add any others in the same module
+5. Modify **presentation -> FirstViewModel** as you want and add any others in the same module
+6. Enjoy! :surfer:
 
 
 ## Add a new module :heavy_plus_sign: (optional)
 
-:one:$~~$Second click on Clean-Architecture-Template structure and select New -> module.<br/>
-:two:$~~$When the module is added to the project, make sure you include it in **settings.gradle.kts** and **DELETE settings.gradle** file generated, because it won't be needed.<br/>
-:three:$~~$Compile the project<br/>
-:four:$~~$Include the module in **app -> build.gradle.kts**<br/>
+1. Second click on Clean-Architecture-Template structure and select New -> module.
+2. When the module is added to the project, make sure you include it in **settings.gradle.kts** and **DELETE settings.gradle** file generated, because it won't be needed.
+3. Compile the project
+4. Include the module in **app -> build.gradle.kts**
+
 
 ## Modules :department_store:
 
