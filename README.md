@@ -17,10 +17,10 @@ Follow the instructions in the README file of the concrete branch. Enjoy! :surfe
 
 ## Next Available Templates :soon:
 
-- Complete Clean Code **MVVM** + Dagger2 using RXJava
-- Complete Clean Code MVVM + Hilt using RXJava
-- Complete Clean Code **MVI** + Dagger2 using RXJava
-- Complete Clean Code **MVI** + Hilt using RXJava
+- Complete Clean Code **MVVM** + **Dagger2** + **RXJava**
+- Complete Clean Code **MVVM** + **Hilt** + **RXJava**
+- Complete Clean Code **MVI** + **Dagger2** + **RXJava**
+- Complete Clean Code **MVI** + **Hilt** + **RXJava**
 
 
 #  License :oncoming_police_car:
