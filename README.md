@@ -2,8 +2,8 @@
 
 ![banner](art/Main-Banner.jpg)
 
-
 This is the main branch of the **'Checkout & Code'** templates developed in order to facilitate the foundation work applied in the beginning of any project.
+
 
 
 ## Getting Started :vertical_traffic_light:
