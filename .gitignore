@@ -1,1 +1,6 @@
 /app/build/
+.gradle/
+.idea/
+navigation/build/
+presentation/build/
+
