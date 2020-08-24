@@ -35,39 +35,38 @@
 22-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:14:9-54
 23        android:supportsRtl="true"
 23-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:15:9-35
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme"
-25-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:16:9-40
-26        android:usesCleartextTraffic="true" >
-26-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:17:9-44
-27        <activity
-27-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:19:9-27:20
-28            android:name="prieto.fernando.template.ui.MainActivity"
-28-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:19:19-74
-29            android:screenOrientation="portrait" >
-29-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:20:13-49
-30            <intent-filter>
-30-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:22:13-26:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:23:17-69
-31-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:23:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:25:17-77
-33-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:25:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:25:9-29:43
-38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:26:13-79
-39            android:authorities="prieto.fernando.android.plugin.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:27:13-69
-40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:28:13-37
-41            android:multiprocess="true" />
-41-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:29:13-40
-42    </application>
-43
-44</manifest>
+24        android:theme="@style/AppTheme"
+24-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:16:9-40
+25        android:usesCleartextTraffic="true" >
+25-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:17:9-44
+26        <activity
+26-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:19:9-27:20
+27            android:name="prieto.fernando.template.ui.MainActivity"
+27-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:19:19-74
+28            android:screenOrientation="portrait" >
+28-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:20:13-49
+29            <intent-filter>
+29-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:23:17-69
+30-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:25:17-77
+32-->/Users/ferchurch/Documents/Personal Projects/Clean-Architecture-Template/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:25:9-29:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:26:13-79
+38            android:authorities="prieto.fernando.android.plugin.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:27:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:28:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.2.0-rc01] /Users/ferchurch/.gradle/caches/transforms-2/files-2.1/34e039c7524e7ed6e9e400961d40019e/jetified-lifecycle-process-2.2.0-rc01/AndroidManifest.xml:29:13-40
+41    </application>
+42
+43</manifest>

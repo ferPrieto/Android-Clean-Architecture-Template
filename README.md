@@ -8,22 +8,22 @@ This is one of the different 'Checkout & Code' templates developed in order to f
 **Domain**, **Data**, **Data-API** and **Core-Android-Test** modules have been removed in this reduced version for **simplicity!**
 
 
-## Getting Started
+## Getting Started :vertical_traffic_light:
 
-1. Checkout the repo
-2. Sync Project with Gradle Files
-3. Add any dependency that you need in **buildSrc -> Dependencies.kt**
-4. Modify **app-> FirstFragment** as you want and add any others in the same module
-5. Modify **presentation -> FirstViewModel** as you want and add any others in the same module
-6. Enjoy!
+:one: Checkout the repo
+:two: Sync Project with Gradle Files
+:three: Add any dependency that you need in **buildSrc -> Dependencies.kt**
+:four: Modify **app-> FirstFragment** as you want and add any others in the same module
+:five: Modify **presentation -> FirstViewModel** as you want and add any others in the same module
+:six: Enjoy!
 
 
-## Add a new module (optional)
+## Add a new module :heavy_plus_sign: (optional)
 
-1. Second click on Clean-Architecture-Template structure and select New -> module.
-2. When the module is added to the project, make sure you include it in **settings.gradle.kts** and **DELETE settings.gradle** file generated, because it won't be needed.
-3. Compile the project
-4. Include the module in **app -> build.gradle.kts**
+:one: Second click on Clean-Architecture-Template structure and select New -> module.
+:two: When the module is added to the project, make sure you include it in **settings.gradle.kts** and **DELETE settings.gradle** file generated, because it won't be needed.
+:three: Compile the project
+:four: Include the module in **app -> build.gradle.kts**
 
 
 ## Modules :department_store:
@@ -35,7 +35,7 @@ This is one of the different 'Checkout & Code' templates developed in order to f
 * **navigation** - Android jetpack navigation abstraction (it contains the navigation config file) **cannot access any other module**
 
 
-#  License
+#  License :oncoming_police_car:
 
     Copyright 2020 Fernando Prieto Moyano
 
