@@ -1,10 +1,4 @@
 .gradle/
 .idea/
-app/build/
-navigation/build/
-presentation/build/
-core/build/
-buildSrc/build/
 buildSrc/.gradle/
-
 
