@@ -1,5 +1,0 @@
-R_DEF: Internal format may change without notice
-local
-id firstFragment
-id main_navigation
-navigation main_navigation

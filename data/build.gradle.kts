@@ -6,6 +6,4 @@ plugins {
 dependencies {
     implementation(project(ProjectModules.domain))
     implementation(project(ProjectModules.coreAndroidTest))
-
-    implementation(Dependencies.Dagger.daggerAndroid)
 }

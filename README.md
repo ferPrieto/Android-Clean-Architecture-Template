@@ -1,9 +1,29 @@
-[![Platform](https://img.shields.io/badge/platform-android-lightgrey)](https://developer.android.com/reference)
+[![Platform](https://img.shields.io/badge/platform-android-brightgreen)](https://developer.android.com/reference)
 
-# Template
+![banner](art/Main-Banner.jpg)
+
+This is the main branch of the **'Checkout & Code'** templates developed in order to facilitate the foundation work applied in the beginning of any project.
 
 
-#  License
+
+## Getting Started :vertical_traffic_light:
+
+Select one of the available options, depending on the project requirement:
+
+![branches](art/Branches.png)
+
+Follow the instructions in the README file of the concrete branch. Enjoy! :surfer:
+
+
+## Next Available Templates :soon:
+
+- Complete Clean Code **MVVM** + **Dagger2** + **RXJava**
+- Complete Clean Code **MVVM** + **Hilt** + **RXJava**
+- Complete Clean Code **MVI** + **Dagger2** + **RXJava**
+- Complete Clean Code **MVI** + **Hilt** + **RXJava**
+
+
+#  License :oncoming_police_car:
 
     Copyright 2020 Fernando Prieto Moyano
 

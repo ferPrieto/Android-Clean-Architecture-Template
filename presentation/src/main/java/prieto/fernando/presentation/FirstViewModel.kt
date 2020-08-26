@@ -1,6 +1,7 @@
 package prieto.fernando.presentation
 
 import android.util.Log
+import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.ViewModel
@@ -18,7 +19,7 @@ import javax.inject.Inject
 
 private const val TAG = "FirstViewModel"
 
-abstract class FirstViewModel : ViewModel() {
+abstract class FirstViewModel @ViewModelInject constructor() : ViewModel() {
     abstract fun getSample()
 
     abstract val showSample: LiveData<SampleUiModel>

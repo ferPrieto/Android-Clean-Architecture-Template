@@ -4,6 +4,5 @@ plugins {
 }
 
 dependencies {
-    implementation(Dependencies.Dagger.daggerAndroid)
     testImplementation(project(ProjectModules.coreAndroidTest))
 }

@@ -11,5 +11,5 @@ dependencies {
     implementation(Dependencies.AndroidX.Navigation.fragmentKtx)
     implementation(Dependencies.AndroidX.lifecycleLivedataKtx)
 
-    implementation(Dependencies.Dagger.daggerAndroid)
+    implementation(Dependencies.Hilt.hiltViewModel)
 }
